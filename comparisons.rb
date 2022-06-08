@@ -22,33 +22,34 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
-puts number_teachers < number_students
+puts "Is the number_teachers less than number_students?", number_teachers < number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
-puts number_teachers == string_teachers
+puts "Is the number_teachers equal to string_teachers?", number_teachers == string_teachers
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
-puts number_teachers != number_students
+puts "is number_teachers not equal to number_students?", number_teachers != number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
-puts number_students >= 20
+puts "is number_students greater than or equal to 20?", number_students >= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
-puts number_students >= 21
+puts "is number_students greater than or equal to 21?", number_students >= 21
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
-puts number_students <= 20
+puts "is number_students less than or equal to 20?", number_students <= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
-puts number_students <= 21
+puts "is number_students less than or equal to 21?", number_students <= 21
 # this should print: true
 puts "End part 1"
+puts ""
 
 
 #-------------------
@@ -61,21 +62,28 @@ puts "End part 1"
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#this code prints an evaluationion if 4 is less than 9
+#should be true
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# variable books is defined with the integer 3.
+# the code prints evaluation if the amount of books is greater than 4
+# should be false
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# varibale friends is defined as integer 6, variable siblings is defined as integer 2
+# the code prints result if number of friends is greater than number of siblings
+# should be true
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# variable attendees is defined as integer 9, variable meals defined as integer 8
+# the code prints the result if attendees is not equal to meals
+# should be true
 
 
 #-------------------
