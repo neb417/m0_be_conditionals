@@ -84,6 +84,8 @@ puts attendees != meals
 # variable attendees is defined as integer 9, variable meals defined as integer 8
 # the code prints the result if attendees is not equal to meals
 # should be true
+puts "End part 2"
+puts ""
 
 
 #-------------------
@@ -106,15 +108,19 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+loves_dog_park && loves_to_play
 
 # Determine if the dog loves to play or loves the dog park
-
+loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts "Dog loves to play and is a puppy", loves_to_play && age < 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+=begin
+ANSWER: False, the dog loves to play, but I considered a puppy to be less than the age of 1.
+Because both are not true the logical operator && is not satisfied.
+=end
